@@ -12,6 +12,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :development, :test do
   gem 'rspec-rails'
+  gem 'guard-rspec', require: false
+  gem 'spring-commands-rspec'
   gem 'factory_girl_rails'
   gem 'byebug'
 end

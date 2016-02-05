@@ -2,3 +2,4 @@
 Gems: 
   * Rspec
   * Factory_girl_rails
+  * Guard
