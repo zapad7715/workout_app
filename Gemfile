@@ -13,7 +13,6 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass', '~>3.3.4.1'
 gem 'autoprefixer-rails', '~>5.2.0'
 gem 'devise', '~>3.5.1' 
-gem 'jquery-ui-rails', '5.0.5'
 
 group :development, :test do
   gem 'rspec-rails'
