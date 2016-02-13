@@ -8,6 +8,7 @@ class User < ActiveRecord::Base
 
   validates :first_name, :last_name, presence: true
 
+  self.per_page = 3
   def full_name
     "#{first_name} #{last_name}"
   end
